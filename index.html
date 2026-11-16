@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="image/Favicon.png">
+  <title>Chris - Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- header -->
+    <header id="site-header" class="sticky-top">
+        <nav class="navbar navbar-expand-lg dark-bg">
+            <div class="container cont-header">
+                <a href="#hero"><img src="image/Portfolio Logo - 2.png" alt="Logo"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="menu-icon">
+                    <img src="image/open.svg" class="icon-open" alt="menu">
+                    <img src="image/close.svg" class="icon-close" alt="close">
+                </span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <a href="#hero"><img src="image/Portfolio Logo - 2.png" alt="Logo"></a>
+                        <button type="button" class="btn-close-custom" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <img src="image/close.svg" alt="close">
+                        </button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item"><a class="nav-link" data-page="hero" href="#hero">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" data-page="projects" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" data-page="about" href="#aboutMe">About</a></li>
+                        <li class="nav-item"><a class="nav-link" data-page="contact" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- content -->
+    <section id="hero" class="hero">
+    <div class="container">
+        <div class="row vh-100 align-items-center">
+            <div class="col hero-content">
+                <div class="text-start content-left mb-5">
+                <p class="custom-fs-3"><span class="gradient">Hello, I'm</span></p>
+                <h1 class="custom-fs-1 pb-3" style="margin-left: -10px; font-weight: 900;">Chris<span class="gradient">.</span></h1>
+                <h2 class="custom-fs-2 pb-3" style="font-weight: 600;">I build <span class="gradient">modern</span> web <br>experiences.</h2>
+                <p class="custom-fs-3 pb-3">I'm a passionate Web Developer who loves turning ideas <br>into clean, functional, and user-friendly websites.</p>
+                <div class="d-flex flex-wrap gap-2">
+                    <a href="#projects" class="btn gradient-btn gradient-bg">View My Work<i class="fa-solid fa-arrow-down-long"></i></a>
+                    <a href="#aboutMe" class="btn transparent-btn">About Me</a>
+                </div>
+                </div>
+                <p>Tech Stack</p>
+                <div class="glass-bg">
+                    <div class="icons">
+                    <img src="image/html-5 1 1.png" alt="html">
+                    <img src="image/css-3 1 1.png" alt="css">
+                    <img src="image/js logo 1 1.png" alt="js">
+                    <img src="image/react 1 1.png" alt="react">
+                    <img src="image/bootstrap 1 1.png" alt="bootstrap">
+                    <img src="image/wordpress 1 1.png" alt="wordpress">
+                    <img src="image/elementor-icon.png" alt="elementor">
+                    <img src="image/yoast-icon.png" alt="yoast">
+                    </div>              
+                </div>          
+            </div> 
+        </div>
+    </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects" class="section-bg-1 py-5">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <p class="custom-fs-3">
+                <span class="gradient">MY WORK</span>
+            </p>
+            <h1 class="custom-fs-1 pb-3" style="margin-left: -10px; font-weight: 900;">
+                Projects<span class="gradient">.</span>
+            </h1>
+            <p class="custom-text-center custom-fs-3 pb-3 text-center">
+                Here are some of the projects I've worked on from Figma to Fully functional website. Each one is built with passion, precision, and problem solving in mind
+            </p>
+            <!-- PROJECTS -->
+            <div class="row g-3 w-100 justify-content-center">
+                <!-- Project 1 -->
+                <div class="col-lg-5 custom-card me-lg-3">
+                    <a href="https://preview-landerson.stackrator.com/" target="_blank" class="project-card">
+                        <div class="project-content">
+                            <div class="img-left">
+                                <img src="image/landerson.webp" alt="landerson">
+                            </div>
+                            <div class="txt-right">
+                                <span class="card-cat">WordPress Website</span>
+                                <h3>Landerson Estate</h3>
+                                <p>Real estate website showcasing property listings with clean, professional design.</p>
+                                <div class="tech-icons">
+                                   <img src="image/wordpress 1 1.png" alt="wordpress">
+                                    <img src="image/elementor-icon.png" alt="elementor">
+                                    <img src="image/html-5 1 1.png" alt="css">
+                                    <img src="image/css-3 1 1.png" alt="css">
+                                    <img src="image/js logo 1 1.png" alt="css">
+                                    <img src="image/yoast-icon.png" alt="yoast"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <p>View Project</p>
+                            <span>↗</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-lg-5 custom-card me-lg-3">
+                    <a href="https://preview-konace.stackrator.com/" target="_blank" class="project-card">
+                        <div class="project-content">
+                            <div class="img-left">
+                                <img src="image/konace.webp" alt="konace">
+                            </div>
+                            <div class="txt-right">
+                                <span class="card-cat">WordPress Website</span>
+                                <h3>Konace Construction</h3>
+                                <p>Corporate website highlighting construction services, projects and free estimate.</p>
+                                <div class="tech-icons">
+                                    <img src="image/wordpress 1 1.png" alt="wordpress">
+                                    <img src="image/elementor-icon.png" alt="elementor">
+                                    <img src="image/html-5 1 1.png" alt="css">
+                                    <img src="image/css-3 1 1.png" alt="css">
+                                    <img src="image/js logo 1 1.png" alt="css">
+                                    <img src="image/yoast-icon.png" alt="yoast">                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <p>View Project</p>
+                            <span>↗</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-lg-5 custom-card me-lg-3">
+                    <a href="https://getstarted.hk/" target="_blank" class="project-card">
+                        <div class="project-content">
+                            <div class="img-left">
+                                <img src="image/gshk.webp" alt="getstartedhk">
+                            </div>
+                            <div class="txt-right">
+                                <span class="card-cat">WordPress Website</span>
+                                <h3>Get Started HK</h3>
+                                <p>Corporate website for Hong Kong company formation and incorporation services.</p>
+                                <div class="tech-icons">
+                                    <img src="image/wordpress 1 1.png" alt="wordpress">                                                                                                   
+                                    <img src="image/html-5 1 1.png" alt="css">
+                                    <img src="image/css-3 1 1.png" alt="css">
+                                    <img src="image/js logo 1 1.png" alt="css">
+                                    <img src="image/bootstrap 1 1.png" alt="css">
+                                    <img src="image/yoast-icon.png" alt="yoast">  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <p>View Project</p>
+                            <span>↗</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 4 -->
+                <div class="col-lg-5 custom-card me-lg-3">
+                    <a href="https://precisionpathtech.com/" target="_blank" class="project-card">
+                        <div class="project-content">
+                            <div class="img-left">
+                                <img src="image/ppti.webp" alt="precisionpathtech">
+                            </div>
+                            <div class="txt-right">
+                                <span class="card-cat">WordPress Website</span>
+                                <h3>Precision Path Tech</h3>
+                                <p>Corporate website for a drone solutions company in the Philippines.</p>
+                                <div class="tech-icons">
+                                    <img src="image/wordpress 1 1.png" alt="wordpress">
+                                    <img src="image/elementor-icon.png" alt="elementor">
+                                    <img src="image/html-5 1 1.png" alt="css">
+                                    <img src="image/css-3 1 1.png" alt="css">
+                                    <img src="image/js logo 1 1.png" alt="css">
+                                    <img src="image/yoast-icon.png" alt="yoast"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <p>View Project</p>
+                            <span>↗</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Project 5 -->
+                <div class="col-lg-5 custom-card me-lg-3">
+                    <a href="https://leclusehomes.com/" target="_blank" class="project-card">
+                        <div class="project-content">
+                            <div class="img-left">
+                                <img src="image/leclusehomes.webp" alt="leclusehomes">
+                            </div>
+                            <div class="txt-right">
+                                <span class="card-cat">WordPress Website</span>
+                                <h3>L'Ecluse Homes, LLC</h3>
+                                <p>Real estate website showcasing residential properties and listing with user-friendly design.</p>
+                                <div class="tech-icons">
+                                    <img src="image/wordpress 1 1.png" alt="wordpress">
+                                    <img src="image/html-5 1 1.png" alt="css">
+                                    <img src="image/css-3 1 1.png" alt="css">
+                                    <img src="image/js logo 1 1.png" alt="css">
+                                    <img src="image/rankmath-icon.png" alt="rankmath"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <p>View Project</p>
+                            <span>↗</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about me -->
+    <section id="aboutMe" class="section-bg-2 py-5 d-flex align-items-center min-vh-90">
+    <div class="container d-lg-flex align-items-center justify-content-between">
+        <div class="flex-fill content-left mb-5 mb-lg-0">
+            <p class="custom-fs-3"><span class="gradient">Get to Know Me</span></p>
+            <h1 class="custom-fs-1 pb-3" style="margin-left: -10px; font-weight: 900;">About Me<span class="gradient">.</span></h1>
+            <p class="custom-fs-3 pb-3 w-75">Hi, I'm Chris a web developer who loves building websites that make sense, both for users and for the businesses behind them. I enjoy the process of solving problems through code and turning simple ideas into working, polished products. When I'm not coding, I'm usually learning new tools or refining my craft to deliver better results with every project.</p>
+            <div class="info mb-5">
+                <div class="info-item">
+                    <img src="image/name-icon.svg">
+                    <p><strong>Name: </strong>Chris Emmanuel Delantes</p>
+                </div>
+                <div class="info-item">
+                    <img src="image/age-icon.svg">
+                    <p><strong>Age: </strong>23 years old</p>
+                </div>
+                <div class="info-item">
+                    <img src="image/location-icon.svg">
+                    <p><strong>Location: </strong>North Caloocan, Philippines</p>
+                </div>
+                <div class="info-item">
+                    <img src="image/email-icon.svg">
+                    <p><strong>Email: </strong>delanteschris18@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <img src="image/hobbies-icon.svg">
+                    <p><strong>Hobbies: </strong>Basketball, Singing, Mobile Games, Watching Movies</p>
+                </div>
+            </div>
+            <div class="btn-grp">
+                <a href="./file/Delantes_Resume.pdf" target="_blank" class="btn gradient-btn gradient-bg me-2 mb-2">Download CV<i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>                        
+        <div class="flex-fill content-right">
+            <h3 class="mb-5">Skills & Technologies</h3>
+            <div class="content-right-item mb-4 mb-lg-5">
+                <h5><span class="gradient">Frontend</span></h5>
+                <div class="glass-bg mt-0 mt-lg-3">
+                    <div class="glass-bg-icons">
+                        <img src="image/html-5 1 1.png" alt="html">
+                        <img src="image/css-3 1 1.png" alt="css">
+                        <img src="image/js logo 1 1.png" alt="js">
+                        <img src="image/react 1 1.png" alt="react">
+                        <img src="image/bootstrap 1 1.png" alt="bootstrap">
+                    </div>              
+                </div> 
+            </div>
+            <div class="content-right-item mb-4 mb-lg-5">
+                <h5><span class="gradient">Backend</span></h5>
+                <div class="glass-bg mt-0 mt-lg-3">
+                    <div class="glass-bg-icons">
+                        <img src="image/php-icon.png" alt="php">
+                        <img src="image/mysql-icon.png" alt="mysql">
+                        <img src="image/xampp-icon.png" alt="xampp">
+                    </div>              
+                </div> 
+            </div>
+            <div class="content-right-item">
+                <h5><span class="gradient">Tools & Others</span></h5>
+                <div class="glass-bg mt-0 mt-lg-3">
+                    <div class="glass-bg-icons">
+                        <img src="image/wordpress 1 1.png" alt="wordpress">
+                        <img src="image/elementor-icon.png" alt="elementor">
+                        <img src="image/woo-icon.png" alt="woo">                      
+                        <img src="image/figma-icon.png" alt="figma">
+                        <img src="image/yoast-icon.png" alt="yoast">
+                        <img src="image/rankmath-icon.png" alt="rankmath">
+                    </div>              
+                </div> 
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section-bg-3 py-5 d-flex align-items-center min-vh-60">
+    <div class="container d-lg-flex align-items-start justify-content-between contact-wrapper">
+        
+        <!-- LEFT: Contact Info -->
+        <div class="contact-left mb-5 mb-lg-0">
+            <p class="custom-fs-3"><span class="gradient">Get In Touch</span></p>
+            <h1 class="custom-fs-1 pb-3" style="margin-left: -10px; font-weight: 900;">Contact<span class="gradient">.</span></h1>
+            <p class="custom-fs-3 pb-3">Have a project in mind or just want to say hi? <br>Feel free to reach out!</p>
+            <div class="info mb-4">
+                <div class="info-item">
+                    <img src="image/email-icon.svg">
+                    <p><strong>Email:</strong><br>chris.delantes18@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <img src="image/location-icon.svg">
+                    <p><strong>Location:</strong><br>Quezon City, Philippines</p>
+                </div>
+                <div class="info-item">
+                    <img src="image/availability-icon.svg">
+                    <p><strong>Availability:</strong><br>Open for freelance & part-time opportunities</p>
+                </div>
+            </div>
+        </div>
+        <!-- MIDDLE: Contact Form -->
+        <div class="contact-form mb-5 mb-lg-0">
+            <form id="contact-form">
+                <div class="form-row">
+                    <input type="text" name="name" class="form-control-custom" placeholder="Your Name" required>
+                    <input type="email" name="email" class="form-control-custom" placeholder="Your Email" required>
+                </div>
+                <input type="text" name="subject" class="form-control-custom" placeholder="Subject" required>
+                <textarea name="message" class="form-control-custom" rows="6" placeholder="Message" required></textarea>
+                <button type="submit" class="send-btn gradient-bg">
+                    Send Message <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+        <!-- RIGHT: Let's Connect -->
+        <div class="contact-right">
+            <h3><span class="gradient">Let's Connect</span></h3>
+            <p class="connect-text">I'm always open to discussing new projects, creative ideas or opportunities.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/chris.delantes.389440" target="_blank" class="social-icon icon-fb"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/chris-emmanuel-delantes-092064303/" target="_blank" class="social-icon icon-linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/cedelantes18" target="_blank" class="social-icon icon-github"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/_cmmnl/" target="_blank" class="social-icon icon-instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:chris.delantes18@gmail.com" target="_blank" class="social-icon icon-email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="quote-card">
+                <span class="quote-icon">&lt;/&gt;</span>
+                <p>"Code is not just my skill, it's how I bring ideas to life."</p>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            
+            <div class="footer-left">
+            <a href="#hero"><img src="image/Portfolio Logo - 2.png" alt="Logo" class="footer-logo"></a>
+            </div>
+
+            <div class="footer-right">
+            <p>&copy; 2026 Chris Delantes. All Rights Reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+    (function() {
+        emailjs.init({ publicKey: "1vH9gDocJ5XLUz2n0" });
+    })();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
